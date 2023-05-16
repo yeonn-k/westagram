@@ -1,10 +1,11 @@
 import React from "react";
-import "./Main.css";
+import "./Main.scss";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
     <>
-      <div id="wrap">
+      <div id="wrapMain">
         <div id="navBottomLine">
           <nav>
             <div id="navLeft">
@@ -24,15 +25,24 @@ const Main = () => {
           <div id="profileBox" className="displayNone">
             <div id="profileBoxTail"></div>
             <div className="profileBoxInnerBox">
-              <img src="/images/account_circle_FILL0_wght400_GRAD0_opsz48.png" />
+              <img
+                src="/images/account_circle_FILL0_wght400_GRAD0_opsz48.png"
+                alt="profile"
+              />
               <span className="profileBoxText">프로필</span>
             </div>
             <div className="profileBoxInnerBox">
-              <img src="/images/bookmark_FILL0_wght400_GRAD0_opsz48.png" />
+              <img
+                src="/images/bookmark_FILL0_wght400_GRAD0_opsz48.png"
+                alt="bookmark"
+              />
               <span className="profileBoxText">저장됨</span>
             </div>
             <div className="profileBoxInnerBox">
-              <img src="/images/settings_FILL0_wght400_GRAD0_opsz48.png" />
+              <img
+                src="/images/settings_FILL0_wght400_GRAD0_opsz48.png"
+                alt="setting"
+              />
               <span className="profileBoxText">설정</span>
             </div>
             <div className="profileBoxInnerBox">
@@ -126,7 +136,10 @@ const Main = () => {
               </div>
 
               <div className="personalInform">
-                <img src="/images/KakaoTalk_20230509_143849516.jpg" />
+                <img
+                  src="/images/KakaoTalk_20230509_143849516.jpg"
+                  alt="profilePhoto"
+                />
 
                 <div className="storyRecommend">
                   <span className="bold">_yum_s</span>
@@ -136,7 +149,10 @@ const Main = () => {
               </div>
 
               <div className="personalInform">
-                <img src="/images/KakaoTalk_20230509_143849516_01.jpg" />
+                <img
+                  src="/images/KakaoTalk_20230509_143849516_01.jpg"
+                  alt="profilePhoto"
+                />
                 <div className="storyRecommend">
                   <span className="bold">drink_eat_dring</span>
                   <br />
@@ -144,7 +160,10 @@ const Main = () => {
                 </div>
               </div>
               <div className="personalInform">
-                <img src="/images/KakaoTalk_20230509_143849516_02.jpg" />
+                <img
+                  src="/images/KakaoTalk_20230509_143849516_02.jpg"
+                  alt="profilePhoto"
+                />
                 <div className="storyRecommend">
                   <span className="bold">hyukyc</span>
                   <br />
@@ -152,7 +171,10 @@ const Main = () => {
                 </div>
               </div>
               <div className="personalInform">
-                <img src="/images/KakaoTalk_20230509_143849516_03.jpg" />
+                <img
+                  src="/images/KakaoTalk_20230509_143849516_03.jpg"
+                  alt="profilePhoto"
+                />
                 <div className="storyRecommend">
                   <span className="bold">jminkeek</span>
                   <br />
@@ -168,7 +190,10 @@ const Main = () => {
               </div>
 
               <div className="personalInform">
-                <img src="/images/KakaoTalk_20230509_143849516_04.jpg" />
+                <img
+                  src="/images/KakaoTalk_20230509_143849516_04.jpg"
+                  alt="profilePhoto"
+                />
 
                 <div className="storyRecommend">
                   <span className="bold">ioaaaaa</span>
@@ -179,7 +204,10 @@ const Main = () => {
               </div>
 
               <div className="personalInform">
-                <img src="/images/KakaoTalk_20230509_143849516.jpg" />
+                <img
+                  src="/images/KakaoTalk_20230509_143849516.jpg"
+                  alt="profilePhoto"
+                />
                 <div className="storyRecommend">
                   <span className="bold">jedlsi</span>
                   <br />
@@ -188,7 +216,10 @@ const Main = () => {
                 <button>팔로우</button>
               </div>
               <div className="personalInform">
-                <img src="/images/KakaoTalk_20230509_143849516_01.jpg" />
+                <img
+                  src="/images/KakaoTalk_20230509_143849516_01.jpg"
+                  alt="profilePhoto"
+                />
                 <div className="storyRecommend">
                   <span className="bold">ellda</span>
                   <br />
