@@ -9,7 +9,7 @@ const Main = () => {
         <div id="navBottomLine">
           <nav>
             <div id="navLeft">
-              <img src="/images/instagram.png" alt="home" />
+              <img src="/images/Nav/instagram.png" alt="home" />
               <div id="line"></div>
               <h1 id="mainH1">Westagram</h1>
             </div>

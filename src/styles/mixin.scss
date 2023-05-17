@@ -3,4 +3,12 @@
   align-items: center;
 }
 
+@mixin font($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
+}
 
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}

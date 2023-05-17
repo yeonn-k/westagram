@@ -1,20 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-@import "../../styles/mixin.scss";
-@import "../../styles/variables.scss";
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@import "src/styles/mixin.scss";
+@import "src/styles/variables.scss";
 
 #wrapLogin {
+  @include size(620px, 700px);
   padding: 50px;
   border: 2px solid #e0e0e0;
-  width: 620px;
-  height: 700px;
   text-align: center;
   margin: 50px auto;
 
@@ -29,16 +22,14 @@
 
   h1 {
     font-family: "Lobster", cursive;
-    font-size: 76px;
-    font-weight: 100;
+    @include font(76px, 100);
     margin-bottom: 75px;
   }
 
   input {
-    font-family: "Noto Sans KR", sans-serif;
+    @include size(484px, 67px);
+
     display: inline-block;
-    width: 484px;
-    height: 67px;
     padding: 10px;
     margin-bottom: 10px;
     background-color: #f1f1f14d;
@@ -52,18 +43,14 @@
   }
 
   button {
-    font-family: "Noto Sans KR", sans-serif;
+    @include size(484px, 58px);
+    @include font(24px, 600);
     display: inline-block;
-    width: 484px;
     margin-top: 15px;
     color: #fff;
     background-color: #b4d8fb; /*활성화 칼라 : #3994ee */
-    width: 484px;
-    height: 58px;
     border-radius: 6px;
     border: none;
-    font-size: 24px;
-    font-weight: 600;
   }
 
   .activeBtn {
@@ -76,7 +63,6 @@
 
   #findPassword {
     display: block;
-    font-family: "Noto Sans KR", sans-serif;
     font-size: 20px;
     color: #001c77;
     margin-top: 186px;
