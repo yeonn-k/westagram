@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-@import "src/styles/mixin.scss";
-@import "src/styles/variables.scss";
+@import 'src/styles/mixin.scss';
+@import 'src/styles/variables.scss';
 
 #wrapLogin {
   @include size(620px, 700px);
@@ -21,7 +21,7 @@
   }
 
   h1 {
-    font-family: "Lobster", cursive;
+    font-family: 'Lobster', cursive;
     @include font(76px, 100);
     margin-bottom: 75px;
   }

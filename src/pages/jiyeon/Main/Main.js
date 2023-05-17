@@ -1,6 +1,6 @@
-import React from "react";
-import "./Main.scss";
-import { Link } from "react-router-dom";
+import React from 'react';
+import './Main.scss';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -96,7 +96,7 @@ const Main = () => {
                   <div className="grey">댓글 127개 모두 보기</div>
                 </div>
                 <div id="existComment">
-                  <span className="bold">neceosecius</span>{" "}
+                  <span className="bold">neceosecius</span>{' '}
                   <span>귀여워💕</span>
                   <button className="deleteBtn">삭제</button>
                   <img
